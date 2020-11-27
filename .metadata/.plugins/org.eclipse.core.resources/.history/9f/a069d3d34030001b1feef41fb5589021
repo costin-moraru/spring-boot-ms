@@ -1,0 +1,5 @@
+package com.example.authors.rest;
+
+public class AuthorsController {
+
+}

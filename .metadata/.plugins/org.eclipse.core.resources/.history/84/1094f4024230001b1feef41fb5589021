@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: auhtors
+server:
+  port: 8092
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8091/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

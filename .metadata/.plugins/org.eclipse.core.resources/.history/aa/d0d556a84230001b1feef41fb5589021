@@ -1,0 +1,19 @@
+package com.example.authors.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+@RequestMapping("/api/authors")
+public class AuthorsController {
+	
+	@GetMapping
+	public String authors() {
+		RestTemplate restTemplate = new RestTemplate();
+		String result = restTemplate.getForObject("http://books/api/books", String.class);
+		return String.format("Author: autore Books: %s", result);
+	}
+
+}

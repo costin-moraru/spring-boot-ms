@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev8081
+    
+server:
+  port: 8081

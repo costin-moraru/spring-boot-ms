@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/Users/costinmoraru/workspace/temp/corso-spring-boot/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3710725516.index
+152366123.index
+3405892559.index
+356596236.index
+4025297066.index
+1444174524.index
+2452496903.index
+1907143614.index
+24642131.index
